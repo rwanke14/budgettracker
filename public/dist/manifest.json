@@ -1,0 +1,22 @@
+{
+  "icons": [
+    {
+      "src": "auto/assets/icons/icon_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/assets/icons/icon_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Budget Tracker App",
+  "short_name": "Budget Tracker",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "An application for tracking your budget additions and withdrawls.",
+  "background_color": "#dddddd",
+  "theme_color": "#ffffff"
+}
