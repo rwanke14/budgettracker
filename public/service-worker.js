@@ -6,6 +6,7 @@ const FILES_TO_CACHE = [
     '/dist/manifest.webmanifest',
     '/assets/icons/icon-192x192.png',
     '/assets/icons/icon-512x512.png',
+    '/assets/db.js',
     // 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
     '/dist/app.bundle.js',
     '/dist/assets/icons/icon_192x192.png',
