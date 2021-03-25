@@ -31,11 +31,9 @@ mongoose.connect(
 });
 
 // routes
-app.use(require("./routes/api.js"));
+app.use(require("./routes/api-routes.js"));
+app.use(require("./routes/html-routes.js"));
 
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'index.html'));
-});
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
