@@ -5,7 +5,7 @@
   "main": "server.js",
   "engines": {
     "node": "15.5.1"
-  }
+  },
   "scripts": {
     "webpack": "webpack --watch",
     "build": "npm run webpack",
