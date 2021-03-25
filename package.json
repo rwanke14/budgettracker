@@ -4,7 +4,8 @@
   "description": "budget tracking app",
   "main": "server.js",
   "engines": {
-    "node": "15.5.1"
+    "node": "15.5.1",
+    "npm": "7.3.0"
   },
   "scripts": {
     "webpack": "webpack --watch",
