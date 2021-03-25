@@ -1,8 +1,11 @@
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "budget tracking app",
   "main": "server.js",
+  "engines": {
+    "node": "15.5.1"
+  }
   "scripts": {
     "webpack": "webpack --watch",
     "build": "npm run webpack",
