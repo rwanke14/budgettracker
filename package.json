@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "15.5.1",
+    "npm": "7.3.0"
+  },
   "scripts": {
     "webpack": "webpack --watch",
     "build": "npm run webpack",
