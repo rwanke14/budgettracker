@@ -1,12 +1,12 @@
 {
   "icons": [
     {
-      "src": "assets/icons/icon_512x512.png",
+      "src": "auto/assets/icons/icon_512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon_192x192.png",
+      "src": "auto/assets/icons/icon_192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     }
@@ -16,7 +16,8 @@
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "/",
-  "description": "An application for tracking your budget additions and withdrawls.",
+  "description": "An application that tracks a budget when an employee is traveling for work.",
   "background_color": "#dddddd",
-  "theme_color": "#ffffff"
+  "theme_color": "#ffffff",
+  "theme-color": "#ffffff"
 }

@@ -1,13 +1,11 @@
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "description": "budget tracking app",
+  "description": "",
   "main": "server.js",
-  "engines": {
-    "node": "15.5.1",
-    "npm": "7.3.0"
-  },
   "scripts": {
+    "webpack": "webpack --watch",
+    "build": "npm run webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "lite-server": "lite-server"
@@ -28,14 +26,17 @@
     "lite-server": "^2.5.3",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0",
     "webpack-pwa-manifest": "^4.3.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.13.10",
-    "@babel/core": "^7.13.10",
-    "@babel/preset-env": "^7.13.12",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-core": "^6.26.3",
     "babel-loader": "^8.2.2",
-    "webpack": "^5.27.2",
-    "webpack-cli": "^4.5.0"
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-pwa-manifest": "^4.0.0"
   }
 }

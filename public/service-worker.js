@@ -2,13 +2,13 @@ const FILES_TO_CACHE = [
     '/',
     '/index.html',
     '/assets/styles.css',
-    '/assets/index.js',
-    '/dist/manifest.webmanifest',
+    '/src/index.js',
+    '/dist/manifest.json',
     '/assets/icons/icon-192x192.png',
     '/assets/icons/icon-512x512.png',
-    '/assets/db.js',
+    '/src/db.js',
     // 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
-    // '/dist/app.bundle.js',
+    '/dist/app.bundle.js',
     '/dist/assets/icons/icon_192x192.png',
     '/dist/assets/icons/icon_512x512.png'
 
